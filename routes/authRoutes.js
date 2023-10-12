@@ -10,7 +10,7 @@ router.route('/')
 router.route('/refresh')
   .get(authController.refresh)
 
-router.route('logout')
+router.route('/logout')
   .post(authController.logout)
 
 module.exports = router
